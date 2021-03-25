@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <img id="familyimages" src="https://images-na.ssl-images-amazon.com/images/I/91zbi9M+mKL.jpg">
+    <br>
+    <label id="familylabel">Family Book</label>
+    <button onclick="Change()">Next</button>
+    <script>
+    
+    var names_array = ["Sapna", "Gaurav (left)", "Anika (middle)"];
+                var images_array = [A.jpg, G.jpg, AN.jpg,];
+                var i = 0;
+
+                function next() {
+                    document.getElementById("image").src = images_array[i];
+                    document.getElementById("name").textContent = names_array[i];
+                    i++;
+                    if(i==4) {
+                        i=0;
+                    }
+                };
+
+            

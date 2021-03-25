@@ -1,0 +1,10 @@
+body{
+    text-align:center;
+  }
+  #familyimages{
+    width: 300;
+    height: 300;
+  }
+  #familylabel{
+font-size: large;
+  }
